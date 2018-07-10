@@ -30,7 +30,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist','index.html'));
 });
 
 app.post('/soldai', (req, res) => {

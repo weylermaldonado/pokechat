@@ -43,7 +43,7 @@ export default {
           from: 'me'
         })
 
-        axios.post(' http://localhost:3000/soldai', {
+        axios.post('/soldai', {
           question: this.text
         })
           .then(res => {
@@ -82,7 +82,7 @@ export default {
       }
     },
     getData () {
-      axios.post('http://localhost:3000/pokeapi', {
+      axios.post('/pokeapi', {
         pokemon: this.pokemon[0].name,
         intent: this.intent
       })
