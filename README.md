@@ -2,7 +2,16 @@
 
 A uwu pokebot
 
-## Build Setup
+## Setup for Node
+```bash
+node server.js
+```
+```bash
+nodemon server.js
+```
+## or with nodemon
+
+## Setup for Vue
 
 ``` bash
 # install dependencies
