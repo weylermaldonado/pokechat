@@ -6,10 +6,12 @@ A uwu pokebot
 ```bash
 node server.js
 ```
+## or with nodemon
+
 ```bash
 nodemon server.js
 ```
-## or with nodemon
+
 
 ## Setup for Vue
 
