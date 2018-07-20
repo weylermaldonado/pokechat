@@ -46,11 +46,9 @@ app.post('/soldai', (req, res) => {
 });
 
 app.post('/pokeapi', (req, res) => {
-  console.log('LA WEA FOME:' + req.body.pokemon)
-  console.log('OTRA WEA FOME: ' + req.body.intent)
   const baseURL = `https://pokeapi.co/api/v2/pokemon/${req.body.pokemon}`;
   let intent = req.body.intent;
-
+s
   axios.get(baseURL)
     .then(response => {
       switch(intent) {
